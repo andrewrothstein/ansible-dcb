@@ -1,0 +1,3 @@
+---
+- src: andrewrothstein.miniconda
+  version: v5.0.0
