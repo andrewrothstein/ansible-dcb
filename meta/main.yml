@@ -25,6 +25,6 @@ galaxy_info:
 
 dependencies:
   - src: andrewrothstein.conda-env
-    version: v2.0.1
+    version: v2.0.5
     conda_env_name: dcb
     conda_env_environment: dcb-environment.yml
