@@ -1,30 +1,28 @@
----
+dependencies:
+- conda_env_environment: dcb-environment.yml
+  conda_env_name: dcb
+  role: andrewrothstein.conda-env
+  version: v2.0.7
 galaxy_info:
   author: Andrew Rothstein
-  description: installs dcb
   company: PointState Capital
+  description: installs dcb
+  galaxy_tags:
+  - development
   license:
-    - MIT
+  - MIT
   min_ansible_version: 2.0
   platforms:
-    - name: EL
-      versions:
-        - all
-    - name: Fedora
-      versions:
-        - all
-    - name: Ubuntu
-      versions:
-        - all
-    - name: Debian
-      versions:
-        - jessie
-        - stretch
-  galaxy_tags:
-    - development
-
-dependencies:
-  - src: andrewrothstein.conda-env
-    version: v2.0.5
-    conda_env_name: dcb
-    conda_env_environment: dcb-environment.yml
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - jessie
+    - stretch
